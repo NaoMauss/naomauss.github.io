@@ -56,7 +56,7 @@ useEffect(() => {
       <br />
       <input
         type="text"
-        placeholder="Entrez le nom d'un pays (en anglais)"
+        placeholder="Entrez le nom d'une vidéo"
         onChange={(e) => setSearchInput(e.target.value)}
       />
       <br />
