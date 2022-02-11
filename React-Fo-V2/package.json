@@ -1,0 +1,37 @@
+{
+  "name": "React-node-app-fo",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000F\u0000o\u0000R\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000F\u0000o\u0000R\u0000e\u0000a\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "homepage": "https://naomauss.github.io",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "gh-pages": "^3.2.3",
+    "jquery": "^3.6.0",
+    "json-server": "^0.17.0",
+    "node-cron": "^3.0.0",
+    "node-sass": "^7.0.1",
+    "react-hook-form": "^7.26.1",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "save-dev": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaoMauss/FoReact.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NaoMauss/FoReact/issues"
+  }
+}
